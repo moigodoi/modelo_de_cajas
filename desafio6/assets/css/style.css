@@ -1,0 +1,23 @@
+body {
+    font-family:sans-serif;
+    margin : 0px ;
+    padding : 0px;
+    }
+
+.bateria {
+    position: absolute;
+    border: 1px solid rgb(94, 94, 99);
+    left: 15%;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+.camion {
+
+    position:relative;
+    top: 250px;
+    left: 400px;
+    z-index: 1;
+    padding: 0px;
+
+}

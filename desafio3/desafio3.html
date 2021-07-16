@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Modelo de cajas - Desafio 3</title>
+    <style media="screen" type="text/css">
+    
+        .bandera{
+            width:300px;
+            height:200px;
+            border: 1px solid grey;
+        }
+        
+        .bandera__japon{
+            background:white;
+        }
+        
+        .bandera__espania{
+            background:red;
+        }
+       
+        .bandera__circulo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: none;
+            background: red;
+            position: relative;
+            top: 50px;
+            left: 100px;
+        }
+        
+        .bandera__rectangulo-amarillo{
+            width:300px;
+            height:80px;
+            background:yellow;
+            top: 60px;
+            position: relative;
+        }
+        
+        .bandera__emiratos{
+            background:red;
+        }
+        
+        .bandera__rectangulo-verde{
+            background: green;
+            width: 220px;
+            height: 66.6px;
+            position: relative;
+            left: 80px;
+        }
+        .bandera__rectangulo-blanco {
+            background: white;
+            width: 220px;
+            height: 66.6px;
+            position: relative;
+            left: 80px;
+        }
+        
+        .bandera__rectangulo-negro {
+            background: black;
+            width: 220px;
+            height: 66.6px;
+            position: relative;
+            left: 80px;
+        }
+        .bandera__cuadrado-rojo-small-supiz{
+            background:red;
+            width: 85px;
+            height: 85px;
+            position: relative;
+        }
+       
+        .bandera__cuadrado-rojo-small-iniz {
+            background: red;
+            width: 85px;
+            height: 85px;
+            position: relative;
+            top: 26px;
+        }
+       
+        .bandera__cuadrado-rojo-large-supder {
+            background: red;
+            width: 85px;
+            height: 85px;
+            position: relative;
+            width: 185px;
+            left: 26px;
+        }
+        
+        .bandera__cuadrado-rojo-large-inder {
+            background: red;
+            width: 85px;
+            height: 85px;
+            position: relative;
+            width: 185px;
+            left: 26px;
+            top:26px;
+        }
+
+        .bandera__cuadrado-rojo-large-supder, .bandera__cuadrado-rojo-small-supiz {
+            display: inline-block;
+        }
+        
+        .bandera__cuadrado-rojo-large-inder, .bandera__cuadrado-rojo-small-iniz {
+            display: inline-block;
+        }
+        
+        .titulos {
+            font-size: 2rem;
+            font-family: sans-serif;
+            font-weight: lighter;
+        }
+        
+        td{
+            padding: 1rem;
+        }
+        
+        table {
+            margin-left: 30%;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <div class="bandera bandera__espania">
+                    <div class="bandera__rectangulo-amarillo"></div>
+                </div>
+            </td>
+            <td>
+                <div class="bandera bandera__dinamarca">
+                    <div class="bandera__cuadrado-rojo-small-supiz"></div>
+                    <div class="bandera__cuadrado-rojo-large-supder"></div>
+                    <div class="bandera__cuadrado-rojo-small-iniz"></div>
+                    <div class="bandera__cuadrado-rojo-large-inder"></div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="titulos">
+                Espa&ntilde;a
+            </td>
+            <td class="titulos">
+                Dinamarca
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="bandera bandera__emiratos">
+                    <div class="bandera__rectangulo-verde"></div>
+                    <div class="bandera__rectangulo-blanco"></div>
+                    <div class="bandera__rectangulo-negro"></div>
+                </div>
+            </td>
+            <td>
+                <div class="bandera bandera__japon">
+                    <div class="bandera__circulo"></div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="titulos">
+                Emiratos &Aacute;rabes
+            </td>
+            <td class="titulos">
+                Jap&oacute;n
+            </td>
+        </tr>
+    </table>
+  
+</body>
+</html>
